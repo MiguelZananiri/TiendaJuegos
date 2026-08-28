@@ -83,19 +83,16 @@ header {
 
 .game-card a {
     display: inline-block;
-    background-color: #000000;
+    background-color: black;
     color: white;
-    border: solid;
-    border-color: hsl(240, 100%, 24%);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
 }
 
 .game-card a:hover {
-    background-color: rgb(0, 0, 0);
-    border: solid;
-    border-color: #0000ad;
+    background-color: white;
+    color: black;
 }
 
 #contacto {
@@ -116,9 +113,18 @@ header {
     width: 40px;
 }
 
-/* Pantalla para tablets */
+/* media query para tablets */
 
 @media (max-width: 900px) {
+
+    body {
+        font-size: larger;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+    }
     
     .game-cards {
         grid-template-columns: 1fr 1fr;
@@ -127,6 +133,7 @@ header {
 
     .game-card {
         width: 90%;
+        font-size: larger;
     }
 
     .game-card img {
@@ -134,16 +141,22 @@ header {
     }
 }
 
+/* Media query para celulares */
+
 @media (max-width: 600px) {
+
+    body {
+        font-size: larger;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+    }
 
     .game-cards {
         grid-template-columns: 1fr;
         justify-items: center;
-    }
-
-    .game-card {
-        width: 90%;
-        font-size: larger;
     }
 
     .game-card img {
