@@ -3,96 +3,38 @@
 }
 
 body {
+    --bs-body-color: white;
+
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     background: linear-gradient(to top, #660b1a, #3e135d);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#navbar {
+.header-text {
+    text-align: center;
+}
+
+.navbar {
     border-bottom: 5px solid #0000ad;
     background: linear-gradient(to right, #660b1a, #3e135d);
 }
 
-.nav-ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
+.carousel-item img {
+    width: 54%;
+    border: 5px solid #0000ad;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
-.nav-text {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: larger;
-    padding: 17px 5px 17px;
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #0000ad;
 }
 
-.nav-text:hover {
-    color: aqua;
-    background-color: rgba(255, 255, 255, 0.1);
-    text-decoration: underline;
-}
-
-header {
-    text-align: center;
-}
-
-.header-text {
-    text-shadow: 1px 3px #0000ffb2;
-}
-
-#productos {
-    flex: 1;
-}
-
-#productos h2 {
-    padding-left: 22px;
-}
-
-.game-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    margin: 70px 0;
-    padding: 0 20px;
-    gap: 20px;
-    justify-items: start;
-}
-
-.game-card {
-    display: flex;
-    border-style: solid;
-    border-color: #c21431;
-    background-color: #660b1a;
-    flex-direction: column;
-    align-items: center;
-    font-weight: bold;
-}
-
-.game-card:nth-child(2n) {
-    border-color: hsl(275, 66%, 42%);
-    background-color: #3e135d;
-}
-
-.game-card img {
-    width: 200px;
-}
-
-.game-card a {
-    display: inline-block;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.game-card a:hover {
-    background-color: white;
-    color: black;
+.card-body {
+    background-color: #212529;
 }
 
 #contacto {
@@ -101,65 +43,4 @@ header {
     font-size: large;
     background-color: #00002b;
     text-align: center;
-}
-
-.redes {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.redes img {
-    width: 40px;
-}
-
-/* media query para tablets */
-
-@media (max-width: 900px) {
-
-    body {
-        font-size: larger;
-    }
-
-    #navbar {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .game-cards {
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-    }
-
-    .game-card {
-        width: 90%;
-        font-size: larger;
-    }
-
-    .game-card img {
-        width: 100%;
-    }
-}
-
-/* Media query para celulares */
-
-@media (max-width: 600px) {
-
-    body {
-        font-size: larger;
-    }
-
-    #navbar {
-        display: flex;
-        justify-content: center;
-    }
-
-    .game-cards {
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-
-    .game-card img {
-        width: 100%;
-    }
 }
