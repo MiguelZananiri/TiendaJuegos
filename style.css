@@ -23,7 +23,6 @@ body {
 }
 
 .carousel-item img {
-    width: 54%;
     border: 5px solid #0000ad;
     border-radius: 8px;
     object-fit: cover;
