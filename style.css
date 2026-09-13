@@ -32,8 +32,52 @@ body {
     background-color: #0000ad;
 }
 
-.card-body {
-    background-color: #212529;
+.game-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: 70px 0;
+    padding: 0 20px;
+    gap: 20px;
+    justify-items: start;
+}
+
+.game-card {
+    display: flex;
+    border-style: solid;
+    border-color: #c21431;
+    background-color: #660b1a;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-card:nth-child(2n) {
+    border-color: hsl(275, 66%, 42%);
+    background-color: #3e135d;
+}
+
+.game-card img {
+    width: 200px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+}
+
+.boton:hover {
+    background-color: white;
+    color: black;
+}
+
+#ver-carrito {
+    margin: 0 auto;
+    display: block;
 }
 
 #contacto {
@@ -42,4 +86,54 @@ body {
     font-size: large;
     background-color: #00002b;
     text-align: center;
+}
+
+@media (max-width: 900px) {
+
+    body {
+        font-size: larger;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .game-cards {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .game-card {
+        width: 90%;
+        font-size: larger;
+    }
+
+    .game-card img {
+        width: 100%;
+    }
+}
+
+/* Media query para celulares */
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: larger;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .game-cards {
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .game-card img {
+        width: 100%;
+    }
 }

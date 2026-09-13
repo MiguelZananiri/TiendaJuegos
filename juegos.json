@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "titulo": "Papers, Please",
+        "descripcion": "Tu trabajo como inspector de inmigración es controlar el flujo humano que entra al lado arstotzko de Grestin desde Kolechia. Entre la marea de inmigrantes y visitantes en busca de trabajo se esconden falsificadores, espías y terroristas.",
+        "precio": "CLP$ 5.750",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/239030/header.jpg?t=1678266428",
+        "url": "https://papersplea.se"
+    },
+    {
+        "id": 2,
+        "titulo": "Hollow Knight",
+        "descripcion": "Hollow Knight es una aventura de acción clásica en 2D ambientada en un vasto mundo interconectado. Explora cavernas tortuosas, ciudades antiguas y páramos mortales. Combate contra criaturas corrompidas, haz amistad con extraños insectos y resuelve los antiguos misterios que yacen en el corazón de reino.",
+        "precio": "CLP$ 8.300",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
+        "url": "https://www.hollowknight.com"
+    },
+    {
+        "id": 3,
+        "titulo": "Balatro",
+        "descripcion": "Balatro es un constructor de mazos roguelike basado en el póker donde deberás crear potentes sinergias y ganar a lo grande",
+        "precio": "CLP$ 8.300",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg?t=1786037325",
+        "url": "https://www.playbalatro.com"
+    },
+    {
+        "id": 4,
+        "titulo": "Dark Souls Remastered",
+        "descripcion": "Entonces llegó el Fuego. Vuelve a disfrutar del aclamado juego que definió el género con el que empezó todo. Gracias a una magnífica remasterización, podrás regresar a Lordran con unos impresionantes detalles en alta definición y a 60 fps.",
+        "precio": "CLP$ 25.499",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
+        "url": "https://es.bandainamcoent.eu/dark-souls/dark-souls-remastered"
+    },
+    {
+        "id": 5,
+        "titulo": "Lies of P",
+        "descripcion": "Eres una marioneta creada por Geppetto, atrapada en una red de mentiras junto a monstruos inimaginables y personajes poco fiables que se interpondrán en tu camino mientras trata de resolver los sucesos que han ocurrido en el mundo de Lies of P.",
+        "precio": "CLP$ 35.800",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1764565054",
+        "url": "https://www.liesofp.com/es-es"
+    },
+    {
+        "id": 6,
+        "titulo": "Terraria",
+        "descripcion": "¡Cava, lucha, explora, construye! Nada es imposible en este juego de aventuras repleto de acción. El mundo es tu lienzo y la tierra misma es tu pintura.",
+        "precio": "CLP$ 5.750",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
+        "url": "https://terraria.org"
+    },
+    {
+        "id": 7,
+        "titulo": "Half Life 2",
+        "descripcion": "Perdimos la Guerra de las Siete Horas. La Tierra se rindió. El incidente de Black Mesa es un recuerdo lejano. El jugador vuelve a tomar la palanca del científico Gordon Freeman, quien se encuentra en una Tierra infestada por alienígenas, desposeída de todos sus recursos y en la que cada vez queda menos población.",
+        "precio": "CLP$ 5.750",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/220/header.jpg?t=1745368545",
+        "url": "https://www.half-life.com/es/halflife2"
+    },
+    {
+        "id": 8,
+        "titulo": "Portal 2",
+        "descripcion": "Portal 2 continúa con esa fórmula ganadora consistente en una innovadora mecánica de juego, historia y música que condujeron al Portal original a ganar más de 70 galardones y lo convirtieron en un nuevo mito de la industria.",
+        "precio": "CLP$ 5.750",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620/header.jpg?t=1745363004",
+        "url": "https://www.thinkwithportals.com"
+    }
+]
