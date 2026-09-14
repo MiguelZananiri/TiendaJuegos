@@ -42,12 +42,14 @@ body {
 }
 
 .game-card {
+    position: relative;
     display: flex;
     border-style: solid;
     border-color: #c21431;
     background-color: #660b1a;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .game-card:nth-child(2n) {
@@ -55,9 +57,43 @@ body {
     background-color: #3e135d;
 }
 
+.game-card:hover {
+    /* color mas claro */
+    background-color: #c21431;
+    border-color: #fd1b40;
+}
+
+.game-card:nth-child(2n):hover {
+    background-color: #7724b2;
+    border-color: #a92fff;
+}
+
 .game-card img {
     width: 200px;
 }
+
+.descripcion-juego {
+    position: absolute;
+    top: 0;
+    left: 105%;
+
+    width: 330px;
+    padding: 15px;
+
+    background: linear-gradient(to right, #660b1a, #3e135d);
+    color: white;
+
+    border-radius: 8px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 100%);
+
+    z-index: 100;
+}
+
+.descripcion-juego.left {
+    left: auto;
+    right: 105%;
+}
+
 
 .boton {
     display: inline-block;
@@ -86,6 +122,30 @@ body {
     font-size: large;
     background-color: #00002b;
     text-align: center;
+}
+
+#formulario {
+    margin: 20px auto;
+    padding: 20px;
+    font-size: large;
+    background: linear-gradient(to top, #660b1a, #3e135d);
+    border-radius: 8px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 100%);
+}
+
+#formulario input {
+    color: white;
+    background-color: #212121;
+    border: solid #0000ad 2px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#formulario textarea {
+    color: white;
+    background-color: #212121;
+    border: solid #0000ad 2px;
+    border-radius: 8px;
 }
 
 @media (max-width: 900px) {
