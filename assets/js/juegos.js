@@ -92,7 +92,11 @@ function limpiarCarrito() {
 
     localStorage.setItem("carrito", JSON.stringify(storage));
 
-    mostrarCarrito(todoJuegos);
+    const contenidoCarrito =
+        document.querySelector("#contenido-carrito");
+
+    contenidoCarrito.innerHTML = "";
+    contenidoCarrito.textContent = "El carrito está vacío";
 }
 
 function mostrarModal(mensaje) {
@@ -101,7 +105,7 @@ function mostrarModal(mensaje) {
     mensajeModal.textContent = mensaje;
 
     const modal = new bootstrap.Modal(
-        document.querySelector("#modal"),
+        document.querySelector("#modal-mensaje"),
     )
 
     modal.show();
@@ -172,13 +176,13 @@ function crearTarjeta(juego) {
 
 // Mostrar carrito
 function mostrarCarrito(todoJuegos) {
-    const contenidoCarrito = document.querySelector("#contenidoCarrito");
+    const contenidoCarrito = document.querySelector("#contenido-carrito");
+
+    contenidoCarrito.innerHTML = "";
 
     const productosCarrito = todoJuegos.filter(
         juego => storage.includes(juego.id)
     );
-
-    contenidoCarrito.innerHTML = "";
 
     if (productosCarrito.length === 0) {
         contenidoCarrito.textContent = "El carrito esta vacio";
@@ -203,10 +207,6 @@ function mostrarCarrito(todoJuegos) {
                 eliminarJuego(juego, todoJuegos);
             });
 
-            document.querySelector("#limpiarCarrito").addEventListener("click", function () {
-                limpiarCarrito();
-            });
-
             producto.appendChild(titulo);
             producto.appendChild(precio);
             producto.appendChild(botonEliminar);
@@ -216,7 +216,7 @@ function mostrarCarrito(todoJuegos) {
     }
 
     const modal = new bootstrap.Modal(
-        document.querySelector("#modalCarrito")
+        document.querySelector("#modal-carrito"),
     );
 
     modal.show();
@@ -259,6 +259,10 @@ function cargarJuegos() {
                 .addEventListener("click", function () {
                     mostrarCarrito(todoJuegos);
                 });
+
+            document.querySelector("#limpiar-carrito").addEventListener("click", function () {
+                limpiarCarrito();
+            });
         })
         .catch(error => {
             console.error("Error al cargar los juegos:", error);

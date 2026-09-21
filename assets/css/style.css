@@ -38,21 +38,27 @@ body {
 
 #buscador {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center;
     margin: 20px;
+    font-size: large;
 }
 
 #input-buscar {
     color: white;
     background-color: hsla(0, 0%, 13%, 0.5);
-    border: none;
+    text-align: center;
+    border: solid #0000ad 2px;
+    height: 50px;
+    width: 500px;
+    font-weight: 500;
 }
 
 #boton-buscar {
     color: white;
     background-color: hsla(0, 0%, 13%, 0.5);
     border: solid #0000ad 2px;
-    margin: 5px;
+    height: 50px;
+    font-weight: 500;
 }
 
 .game-cards {
@@ -67,8 +73,8 @@ body {
 .game-card {
     position: relative;
     display: flex;
-    border-style: solid;
-    border-color: #c21431;
+    border: solid #c21431 1px;
+    border-radius: 5px;
     background-color: #660b1a;
     flex-direction: column;
     align-items: center;
@@ -93,6 +99,7 @@ body {
 
 .game-card img {
     width: 200px;
+    border-radius: 5px;
 }
 
 .descripcion-juego {
@@ -137,6 +144,7 @@ body {
 #ver-carrito {
     margin: 0 auto;
     display: block;
+    font-size: large;
 }
 
 #contacto {
@@ -199,6 +207,12 @@ body {
     .game-card img {
         width: 100%;
     }
+
+    .descripcion-juego {
+        top: -40%;
+        left: 0;
+        width: 100%;
+    }
 }
 
 /* Media query para celulares */
@@ -221,6 +235,12 @@ body {
     }
 
     .game-card img {
+        width: 100%;
+    }
+
+    .descripcion-juego {
+        top: -40%;
+        left: 0;
         width: 100%;
     }
 }
