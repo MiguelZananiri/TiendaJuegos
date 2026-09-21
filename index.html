@@ -12,6 +12,7 @@
 
 <body>
 
+    <!-- Modal para mostrar mensajes -->
     <div class="modal fade" id="modal-mensaje" data-bs-theme="dark" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true" data-bs-backdrop="false">
         <div class="modal-dialog">
@@ -30,8 +31,8 @@
         </div>
     </div>
 
+    <!-- Modal para mostrar el carrito -->
     <div class="modal fade" id="modal-carrito" data-bs-theme="dark" tabindex="-1" aria-labelledby="modal-carrito-label" aria-hidden="true" data-bs-backdrop="false">
-
         <div class="modal-dialog">
             <div class="modal-content">
 
@@ -120,11 +121,11 @@
 
     <!-- Productos -->
     <section id="productos">
-        <h2>Videojuegos en venta</h2>
         <form id="buscador">
             <input type="text" placeholder="Buscar juego" id="input-buscar" autocomplete="off">
             <input type="submit" value="Buscar" id="boton-buscar">
         </form>
+        <h2>Videojuegos en venta</h2>
         <div id="juegos">
         </div>
 

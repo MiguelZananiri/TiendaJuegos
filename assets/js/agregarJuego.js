@@ -1,3 +1,4 @@
+// Mostrar modal
 function mostrarModal(mensaje) {
     const mensajeModal = document.querySelector("#mensaje");
 
@@ -57,7 +58,7 @@ fetch("juegos.json")
                 id: nuevoId,
                 titulo: titulo,
                 descripcion: descripcion === "" ? "Sin descripcion" : descripcion,
-                precio: "CLP$ " + precio,
+                precio: + precio,
                 imagen: imagen === "" ? "assets/img/sin-imagen.jpg" : imagen,
                 url: url === "" ? "noURL" : url
             }

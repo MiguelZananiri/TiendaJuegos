@@ -3,7 +3,7 @@
         "id": 1,
         "titulo": "Papers, Please",
         "descripcion": "Tu trabajo como inspector de inmigración es controlar el flujo humano que entra al lado arstotzko de Grestin desde Kolechia. Entre la marea de inmigrantes y visitantes en busca de trabajo se esconden falsificadores, espías y terroristas.",
-        "precio": "CLP$ 5.750",
+        "precio": "5.750",
         "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/239030/header.jpg?t=1678266428",
         "url": "https://papersplea.se"
     },
@@ -11,56 +11,184 @@
         "id": 2,
         "titulo": "Hollow Knight",
         "descripcion": "Hollow Knight es una aventura de acción clásica en 2D ambientada en un vasto mundo interconectado. Explora cavernas tortuosas, ciudades antiguas y páramos mortales. Combate contra criaturas corrompidas, haz amistad con extraños insectos y resuelve los antiguos misterios que yacen en el corazón de reino.",
-        "precio": "CLP$ 8.300",
+        "precio": "8.300",
         "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
         "url": "https://www.hollowknight.com"
     },
     {
         "id": 3,
+        "titulo": "Hollow Knight: Silksong",
+        "descripcion": "¡Vive una aventura como Hornet, la letal cazadora, en un reino regido por la seda y el canto! Tras ser capturada y llevada a este mundo desconocido, prepárate para enfrentarte a enemigos formidables y desentrañar antiguos misterios mientras emprendes una peligrosa peregrinación hacia la cima del reino.",
+        "precio": "10.500",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg?t=1776125736",
+        "url": "https://hollowknightsilksong.com"
+    },
+    {
+        "id": 4,
         "titulo": "Balatro",
         "descripcion": "Balatro es un constructor de mazos roguelike basado en el póker donde deberás crear potentes sinergias y ganar a lo grande",
-        "precio": "CLP$ 8.300",
+        "precio": "8.300",
         "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg?t=1786037325",
         "url": "https://www.playbalatro.com"
     },
     {
-        "id": 4,
+        "id": 5,
         "titulo": "Dark Souls Remastered",
         "descripcion": "Entonces llegó el Fuego. Vuelve a disfrutar del aclamado juego que definió el género con el que empezó todo. Gracias a una magnífica remasterización, podrás regresar a Lordran con unos impresionantes detalles en alta definición y a 60 fps.",
-        "precio": "CLP$ 25.499",
+        "precio": "25.499",
         "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
         "url": "https://es.bandainamcoent.eu/dark-souls/dark-souls-remastered"
     },
     {
-        "id": 5,
+        "id": 6,
         "titulo": "Lies of P",
         "descripcion": "Eres una marioneta creada por Geppetto, atrapada en una red de mentiras junto a monstruos inimaginables y personajes poco fiables que se interpondrán en tu camino mientras trata de resolver los sucesos que han ocurrido en el mundo de Lies of P.",
-        "precio": "CLP$ 35.800",
+        "precio": "35.800",
         "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1764565054",
         "url": "https://www.liesofp.com/es-es"
     },
     {
-        "id": 6,
+        "id": 7,
         "titulo": "Terraria",
         "descripcion": "¡Cava, lucha, explora, construye! Nada es imposible en este juego de aventuras repleto de acción. El mundo es tu lienzo y la tierra misma es tu pintura.",
-        "precio": "CLP$ 5.750",
+        "precio": "5.750",
         "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
         "url": "https://terraria.org"
     },
     {
-        "id": 7,
-        "titulo": "Half Life 2",
+        "id": 8,
+        "titulo": "Half-Life",
+        "descripcion": "Nombrado 'Juego del año' por más de 50 publicaciones, el primer título de Valve combina acción y aventura con una tecnología galardonada para crear un mundo aterradoramente realista en el que los jugadores deben pensar para sobrevivir. También incluye un emocionante modo multijugador que te permite jugar contra amigos y enemigos en todo el mundo.",
+        "precio": "4.400",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/70/header.jpg?t=1745368462",
+        "url": "https://www.half-life.com/es/halflife"
+    },
+    {
+        "id": 9,
+        "titulo": "Half-Life 2",
         "descripcion": "Perdimos la Guerra de las Siete Horas. La Tierra se rindió. El incidente de Black Mesa es un recuerdo lejano. El jugador vuelve a tomar la palanca del científico Gordon Freeman, quien se encuentra en una Tierra infestada por alienígenas, desposeída de todos sus recursos y en la que cada vez queda menos población.",
-        "precio": "CLP$ 5.750",
+        "precio": "5.750",
         "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/220/header.jpg?t=1745368545",
         "url": "https://www.half-life.com/es/halflife2"
     },
     {
-        "id": 8,
+        "id": 10,
+        "titulo": "Portal",
+        "descripcion": "Portal™ es la nueva aventura para un solo jugador de Valve. Ambientado en los misteriosos laboratorios de Aperture Science, Portal ha sido calificado como uno de los juegos más innovadores de los últimos tiempos y ofrece incontables horas de rompecabezas nunca vistos.",
+        "precio": "5.750",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/400/header.jpg?t=1745368554",
+        "url": "https://store.steampowered.com/sub/469/"
+    },
+    {
+        "id": 11,
         "titulo": "Portal 2",
         "descripcion": "Portal 2 continúa con esa fórmula ganadora consistente en una innovadora mecánica de juego, historia y música que condujeron al Portal original a ganar más de 70 galardones y lo convirtieron en un nuevo mito de la industria.",
-        "precio": "CLP$ 5.750",
+        "precio": "5.750",
         "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620/header.jpg?t=1745363004",
         "url": "https://www.thinkwithportals.com"
+    },
+    {
+        "id": 12,
+        "titulo": "Metro 2033 Redux",
+        "descripcion": "En 2013, el mundo quedó devastado por un acontecimiento apocalíptico que aniquiló a casi toda la humanidad y convirtió la superficie terrestre en un yermo tóxico. Un puñado de supervivientes se refugió en las profundidades del metro de Moscú, y la civilización humana entró en una nueva Edad Oscura.",
+        "precio": "14.989",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/286690/header.jpg?t=1741110084",
+        "url": "noURL"
+    },
+    {
+        "id": 13,
+        "titulo": "Metro Last Light Redux",
+        "descripcion": "Es el año 2034. Bajo las ruinas de una Moscú postapocalíptica, en los túneles del Metro, los últimos vestigios de la humanidad se ven acosados ​​por amenazas mortales, tanto del exterior como del interior. Los mutantes acechan en las catacumbas bajo la superficie desolada y cazan bajo los cielos envenenados.",
+        "precio": "14.989",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/287390/header.jpg?t=1725444535",
+        "url": "noURL"
+    },
+    {
+        "id": 14,
+        "titulo": "Metro Exodus",
+        "descripcion": "Huye de las ruinas destrozadas del Metro de Moscú y emprende un viaje épico que atraviesa el continente a través de los parajes salvajes de la Rusia posapocalíptica. Explora vastos niveles no lineales, sumérgete en una experiencia de supervivencia de mundo abierto y sigue una apasionante historia que abarca todo un año en la mayor aventura de Metro hasta la fecha.",
+        "precio": "22.989",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+        "url": "http://metrothegame.com"
+    },
+    {
+        "id": 15,
+        "titulo": "Cult of the Lamb",
+        "descripcion": "Cult of the Lamb introduce a los jugadores en el papel de un cordero poseído, salvado de la aniquilación por un extraño ser siniestro y que debe saldar su deuda formando una secta de fieles seguidores a su nombre. Empieza tu propia secta en una tierra de falsos profetas, aventúrate a través de las diversas y misteriosas regiones para construir una comunidad fiel de adeptos del bosque, y difunde tu Palabra para convertir tu secta en la única y verdadera.",
+        "precio": "11.000",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/19f32bb477a6e9d058e05193b4e282149bd70644/header.jpg?t=1786554901",
+        "url": "https://www.cultofthelamb.com"
+    },
+    {
+        "id": 16,
+        "titulo": "The Binding of Isaac",
+        "descripcion": "Cuando la madre de Isaac empieza a oír la voz de Dios exigiendo un sacrificio para poner a prueba su fe, Isaac huye al sótano, donde se enfrenta a hordas de enemigos trastornados, a hermanos perdidos, a sus propios miedos y, finalmente, a su madre.",
+        "precio": "3.000",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/113200/header.jpg?t=1643480517",
+        "url": "noURL"
+    },
+    {
+        "id": 17,
+        "titulo": "The Binding of Isaac: Rebirth",
+        "descripcion": "Cuando la madre de Isaac empieza a oír la voz de Dios exigiendo un sacrificio para poner a prueba su fe, Isaac huye al sótano, donde se enfrenta a hordas de enemigos trastornados, a hermanos perdidos, a sus propios miedos y, finalmente, a su madre.",
+        "precio": "6.400",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365",
+        "url": "noURL"
+    },
+    {
+        "id": 18,
+        "titulo": "GRIS",
+        "descripcion": "Gris, una jovencita llena de optimismo que está perdida en su propio mundo, debe hacerle frente a una experiencia dolorosa. Su viaje encarnado por la tristeza se hace visible en su vestido, el cual le otorga habilidades nuevas que la ayudan a navegar el fárrago de su realidad.",
+        "precio": "8.300",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1759429603",
+        "url": "https://nomada.studio/gris-game/"
+    },
+    {
+        "id": 19,
+        "titulo": "Neva",
+        "descripcion": "Vive la conmovedora historia de una joven y su eterno vínculo con un glorioso lobo en un viaje lleno de emocionantes aventuras a través de un mundo en decadencia.",
+        "precio": "10.500",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2420660/header.jpg?t=1771587898",
+        "url": "https://neva.game"
+    },
+    {
+        "id": 20,
+        "titulo": "Journey",
+        "descripcion": "Explora el mundo misterioso y antiguo de Journey. Sobrevuela sus ruinas y deslizate por la arena para descubrir todos sus secretos.",
+        "precio": "7.900",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/638230/header.jpg?t=1729099361",
+        "url": "https://thatgamecompany.com/journey/"
+    },
+    {
+        "id": 21,
+        "titulo": "Flower",
+        "descripcion": "Vive la experiencia de Flower, el galardonado juego que ya está disponible para PC. En Flower puedes controlar el viento mientras exploras y recorres preciosos y exuberantes paisajes mediante los controles de movimiento.",
+        "precio": "3.900",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/966330/header.jpg?t=1729099721",
+        "url": "https://thatgamecompany.com/flower/"
+    },
+    {
+        "id": 22,
+        "titulo": "SOMA",
+        "descripcion": "De los creadores de Amnesia: The Dark Descent llega SOMA, un juego de terror y ciencia ficción ambientado bajo las aguas del océano Atlántico. Lucha por sobrevivir en un mundo hostil que te hará cuestionar tu propia existencia.",
+        "precio": "15.500",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/282140/header.jpg?t=1786607913",
+        "url": "https://www.somagame.com"
+    },
+    {
+        "id": 23,
+        "titulo": "BEYOND: Two Souls",
+        "descripcion": "Beyond: Two Souls, un singular juego de acción y suspenso psicológico que cuenta con la presencia de dos reconocidos actores de Hollywood, Elliot Page y Willem Dafoe, te sumergirá en una emocionante aventura por todo el mundo mientras interpretas la extraordinaria vida de Jodie Holmes.",
+        "precio": "12.900",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/960990/header.jpg?t=1667468566",
+        "url": "https://www.quanticdream.com/en/beyond-two-souls"
+    },
+    {
+        "id": 24,
+        "titulo": "Detroit: Become Human",
+        "descripcion": "Detroit: Become Human pone el destino de la humanidad y de los androides en tus manos. Cada decisión que tomes afectará el resultado del juego, que cuenta con una de las narrativas ramificadas más intrincada que jamás se creó.",
+        "precio": "24.900",
+        "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg?t=1667468479",
+        "url": "https://www.quanticdream.com/en/detroit-become-human"
     }
 ]

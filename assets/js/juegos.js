@@ -78,6 +78,7 @@ function agregarAlCarrito(juego) {
     mostrarModal("El juego " + juego.titulo + " ha sido agregado");
 }
 
+// Eliminar juego del carrito
 function eliminarJuego(juego, todoJuegos) {
 
     storage = storage.filter(id => id !== juego.id);
@@ -87,6 +88,7 @@ function eliminarJuego(juego, todoJuegos) {
     mostrarCarrito(todoJuegos);
 }
 
+// Limpiar el carrito
 function limpiarCarrito() {
     storage = [];
 
@@ -99,6 +101,7 @@ function limpiarCarrito() {
     contenidoCarrito.textContent = "El carrito está vacío";
 }
 
+// Mostrar modal
 function mostrarModal(mensaje) {
     const mensajeModal = document.querySelector("#mensaje");
 
@@ -128,7 +131,7 @@ function crearTarjeta(juego) {
 
     // Precio
     const precio = document.createElement("p");
-    precio.textContent = juego.precio;
+    precio.textContent = "CLP$ " + juego.precio;
 
     // Mostrar descripción al entrar a la tarjeta
     tarjeta.addEventListener("mouseenter", function () {
@@ -197,7 +200,7 @@ function mostrarCarrito(todoJuegos) {
             titulo.textContent = juego.titulo;
 
             const precio = document.createElement("span");
-            precio.textContent = juego.precio;
+            precio.textContent = "CLP$ " + juego.precio;
 
             const botonEliminar = document.createElement("button");
             botonEliminar.textContent = "Eliminar";
