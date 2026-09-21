@@ -5,17 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agregar juego</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
 
+    <div class="modal fade" id="modal" data-bs-theme="dark" data-bs-backdrop="false" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" data-bs-backdrop="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mensaje</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="mensaje">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Barra de navegacion -->
     <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Legendary Games</a>
+            <a class="navbar-brand" href="index.html">Legendary Games</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -23,9 +41,6 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Productos</a>
                     </li>
@@ -50,13 +65,16 @@
         <br>
         <input type="text" id="url" placeholder="Pagina del juego" autocomplete="off">
         <br>
-        <textarea rows="10" cols="50"id="descripcion" placeholder="Descripcion" autocomplete="off"></textarea>
+        <textarea rows="10" cols="50" id="descripcion" placeholder="Descripcion" autocomplete="off"></textarea>
         <br>
         <input type="submit" value="Agregar" id="agregarJuego">
         <p>Los campos con * son obligatorios</p>
     </form>
 
-    <script src="agregarJuego.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/agregarJuego.js"></script>
 </body>
 
 </html>

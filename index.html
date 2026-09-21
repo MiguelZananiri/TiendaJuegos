@@ -5,17 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Legendary Games</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
 
+    <div class="modal fade" id="modal" data-bs-theme="dark" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" data-bs-backdrop="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mensaje</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="mensaje">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalCarrito" data-bs-theme="dark" tabindex="-1" aria-labelledby="modalCarritoLabel" aria-hidden="true" data-bs-backdrop="false">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalCarritoLabel">
+                        Mi carrito
+                    </h1>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body" id="contenidoCarrito">
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" id="limpiarCarrito">
+                        Vaciar carrito
+                    </button>
+
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <!-- Barra de navegacion -->
     <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Legendary Games</a>
+            <a class="navbar-brand" href="index.html">Legendary Games</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -23,9 +71,6 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#productos">Productos</a>
                     </li>
@@ -46,7 +91,6 @@
         <p class="header-text">Tienda para comprar videojuegos en linea para PC</p>
     </header>
     <main>
-
         <!-- Carrusel de juegos -->
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
@@ -77,6 +121,10 @@
     <!-- Productos -->
     <section id="productos">
         <h2>Videojuegos en venta</h2>
+        <form id="buscador">
+            <input type="text" placeholder="Buscar juego" id="input-buscar" autocomplete="off">
+            <input type="submit" value="Buscar" id="boton-buscar">
+        </form>
         <div id="juegos">
         </div>
 
@@ -89,12 +137,12 @@
         <p>legendarygames@contact.com</p>
         <p>Teléfono: 123-456-78</p>
         <div class="redes">
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><img src="img/youtube-logo.png"
-                    alt="Imagen Youtube"></a>
-            <a href="https://x.com/?lang=es" target="_blank" rel="noopener noreferrer"><img src="img/x-logo.png"
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><img
+                    src="assets/img/youtube-logo.png" alt="Imagen Youtube"></a>
+            <a href="https://x.com/?lang=es" target="_blank" rel="noopener noreferrer"><img src="assets/img/x-logo.png"
                     alt="Imagen X"></a>
             <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer"><img
-                    src="img/facebook-logo.png" alt="Imagen Facebook"></a>
+                    src="assets/img/facebook-logo.png" alt="Imagen Facebook"></a>
         </div>
 
     </footer>
@@ -103,7 +151,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
-    <script src="juegos.js"></script>
+    <script src="assets/js/juegos.js"></script>
 </body>
 
 </html>
